@@ -260,7 +260,7 @@ def visualize_results(results):
     plt.show()
 
 m_values = range(1, 21)
-network_sizes = [25, 50, 100, 200, 300]  # Defined globally if used in multiple functions
+network_sizes = [25, 50, 100, 200, 300] 
 results = simulate_performance_for_m_values(m_values, network_sizes)
 
 print_results(results)
