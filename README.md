@@ -26,5 +26,3 @@ The presence of leader nodes, essential for validating transactions and maintain
 ### Discussion
 
 The analysis reveals that 'm' significantly impacts network performance, with an optimal range that shifts based on network size. Smaller networks benefit from lower 'm' values, enabling high throughput and low latency without compromising on the distribution of leader nodes. For larger networks, a higher 'm' value is justified to maintain connectivity and efficiency, though care must be taken to avoid centralization risks.
-
-These findings have practical implications for blockchain network design, suggesting that dynamic adjustment of 'm' might be necessary as networks grow to maintain optimal performance.
